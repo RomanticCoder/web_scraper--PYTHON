@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 
 from extractors.wwr import extract_wwr_jobs
 from extractors.linkedIn import extract_linkedIn_jobs
-
-keyword = input("type the keyword")
+print("\nWhat kind of job are you looking for? \n")
+keyword = input("type the keyword: ")
 
 file = open(f"{keyword}_jobs.csv", "w")
 
